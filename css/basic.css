@@ -6,7 +6,7 @@ body{
 
 .wrap{
    /* width: 100%; */
-   width: 480px;
+   max-width: 480px;
    height: 1000px;
    margin: 0 auto;
 }
@@ -68,36 +68,36 @@ main{}
    height: 920px;
 }
 
-.swiper {
+.section1 .swiper {
    width: 100%;
    height: 100%;
 }
 
-.swiper-slide {
+.section1 .swiper-slide {
    padding: 80px 30px;
    color: #fff;
 }
 
-.swiper-slide img {
+.section1 .swiper-slide img {
    display: block;
    width: 100%;
    height: 100%;
    object-fit: cover;
 }
 
-.swiper-slide{
+.section1 .swiper-slide{
    width: 100%;
    height: 100%;
    background: url('../img/main1.png');
 }
 
-.swiper-slide > h2{
+.section1 .swiper-slide > h2{
    font-size: 30px;
    font-weight: bold;
    margin-bottom: 20px;
 }
 
-.swiper-slide > p{
+.section1 .swiper-slide > p{
    font-size: 14px;
 }
 
@@ -157,7 +157,7 @@ main{}
 }
 
 .point > li{
-   width: 195px;
+   width: 49%;
    margin-bottom: 10px;
    border-radius: 8px;
    overflow: hidden;
@@ -223,10 +223,63 @@ main{}
 .section3{
    width: 100%;
    height: 700px;
+   padding: 60px 0;
    background: pink;    /*  지우기   */ 
    color: #fff;
 }
 
+.section3 > h3{
+   font-size: 27px;
+   font-weight: bold;
+   letter-spacing: -2px;
+   padding: 10px 30px 30px;
+}
+
+.s3_slide{
+   width: 100%;
+}
+
+.section3 .swiper {
+   width: 100%;
+   height: 280px;
+}
+
+.section3 .swiper-slide-active{
+   width:auto;
+}
+
+.section3 .swiper-slide {
+
+   height: 100%;
+}
+
+.s3_item1{
+   background: url('../img/s3img1.png') no-repeat center center/  90% 100%;
+}
+.s3_item2{
+   background: url('../img/s3img2.png') no-repeat center center /  90% 100%;
+}
+.s3_item3{
+   background: url('../img/s3img3.png') no-repeat center center /  90% 100%;
+}
+.s3_item4{
+   background: url('../img/s3img4.png') no-repeat center center /  90% 100%;
+}
+.s3_item5{
+   background: url('../img/s3img5.png') no-repeat center center /  90% 100%;
+}
+.s3_item6 > div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+   height: 100%;
+   margin: 0 auto;
+   background: #4E2BF4;
+   color: #fff;
+   font-size: 18px;
+   font-weight: bold;
+}
 
 
 footer{
