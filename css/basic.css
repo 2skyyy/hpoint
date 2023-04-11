@@ -88,7 +88,7 @@ main{}
 .section1 .swiper-slide{
    width: 100%;
    height: 100%;
-   background: url('../img/main1.png');
+   background: url('../img/main1.png') no-repeat center center / cover;
 }
 
 .section1 .swiper-slide > h2{
@@ -253,7 +253,7 @@ main{}
 .section3 .swiper-slide > p {
    position: absolute;
    display: block;
-   width: 460px;
+   width: 90%;
    height: 40px;
    bottom: 0;
    left: 50%;
@@ -270,7 +270,7 @@ main{}
 .s3_item4 img,
 .s3_item5 img,
 .s3_item6 img{
-   width: 460px;
+   width: 90%;
    height: 250px;
    object-fit: contain;
    margin-bottom: 8px;
@@ -280,7 +280,7 @@ main{}
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 440px;
+   width: 90%;
    height: 250px;
    margin: 0 auto;
    background: #4E2BF4;
@@ -351,8 +351,7 @@ main{}
 }
 
 .section5 .swiper {
-   width: 440px;
-   height: 380px;
+   width: 90%;
 }
 
 .section5 .swiper-slide{
@@ -362,8 +361,7 @@ main{}
 .s5_item1 img,
 .s5_item2 img,
 .s5_item3 img{
-   width: 100%;
-   height: 300px;
+   width: 90%;
    margin-bottom: 8px;
 }
 .section5 .swiper-slide > p {
@@ -435,7 +433,9 @@ footer{
 
 .f1,
 .f2{
+   width: 100%;
    display: flex;
+   flex-wrap: wrap;
 }
 
 .f1 > li,
